@@ -28,5 +28,20 @@ nmap -sV -sC <ip>
 ```
 </details>
 
+## 📝 Task Questions & Answers
+
+<details>
+<summary>📋 Click to reveal — guided task answers</summary>
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | <question> | <answer> |
+| … | | |
+| N | Submit flag | `<flag>` |
+
+</details>
+
+---
+
 ## 🛡️ Lessons / Remediation
 - 

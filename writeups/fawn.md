@@ -76,6 +76,28 @@ cat flag.txt
 
 ---
 
+## 📝 Task Questions & Answers
+
+<details>
+<summary>📋 Click to reveal — guided task answers</summary>
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What does the 3-letter acronym FTP stand for? | File Transfer Protocol |
+| 2 | What communication model does FTP use, architecturally speaking? | client-server |
+| 3 | What is the name of one popular GUI FTP program? | FileZilla |
+| 4 | Which port is the FTP service active on usually? | 21 |
+| 5 | What acronym is used for the secure version of FTP? | SFTP |
+| 6 | What is the command we can use to test our connection to the target? | ping |
+| 7 | From your scans, what version is FTP running on the target? | vsftpd 3.0.3 |
+| 8 | From your scans, what OS type is running on the target? | Unix |
+| 9 | Submit the flag | `035db21c881520061c53e0536e44f815` |
+
+</details>
+
+
+---
+
 ## 🛡️ Lessons / Remediation
 - **Disable anonymous FTP** unless a public read-only drop is genuinely intended.
 - Prefer **SFTP/FTPS** so credentials and data are encrypted in transit.

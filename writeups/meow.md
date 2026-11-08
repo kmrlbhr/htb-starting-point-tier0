@@ -71,6 +71,28 @@ b40abdfe23665f766f9c61ecba8a4c19
 
 ---
 
+## 📝 Task Questions & Answers
+
+<details>
+<summary>📋 Click to reveal — guided task answers</summary>
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What does the acronym VM stand for? | Virtual Machine |
+| 2 | What tool do we use to interact with the OS to start our VPN connection? | Terminal |
+| 3 | What service do we use to form our VPN connection? | OpenVPN |
+| 4 | What abbreviated name for a 'tunnel interface' appears in the VPN boot-up output? | tun |
+| 5 | What tool do we use to test our connection to the target? | ping |
+| 6 | What's the name of the tool we use to scan the target's ports? | nmap |
+| 7 | What service do we identify on port 23/tcp during our scan? | telnet |
+| 8 | What username works with the remote management login prompt? | root |
+| 9 | Submit root flag | `b40abdfe23665f766f9c61ecba8a4c19` |
+
+</details>
+
+
+---
+
 ## 🛡️ Lessons / Remediation
 - **Disable Telnet**; replace with **SSH** using key-based authentication.
 - Never leave blank or default credentials on a remotely accessible service.

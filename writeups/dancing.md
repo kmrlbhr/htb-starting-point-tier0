@@ -123,6 +123,29 @@ cat flag.txt
 
 ---
 
+## 📝 Task Questions & Answers
+
+<details>
+<summary>📋 Click to reveal — guided task answers</summary>
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What does the 3-letter acronym SMB stand for? | Server Message Block |
+| 2 | What port does SMB use to operate at? | 445 |
+| 3 | What network communication model does SMB use, architecturally speaking? | client-server |
+| 4 | What is the service name for port 445 that came up in our Nmap scan? | microsoft-ds |
+| 5 | What is the tool we use to connect to SMB shares from our Linux distribution? | smbclient |
+| 6 | What 'flag'/'switch' can we use with the SMB tool to 'list' the share contents? | -L |
+| 7 | How many shares are there on Dancing? | 4 |
+| 8 | What is the name of the share we are able to access in the end? | WorkShares |
+| 9 | What command can we use within the SMB shell to download the files we find? | get |
+| 10 | Submit root flag | `5f61c10dffbc77a704d76016a22f1664` |
+
+</details>
+
+
+---
+
 ## 🛡️ Lessons / Remediation
 - **Disable anonymous / null-session SMB access** — require authentication on every share.
 - Don't store sensitive files on network shares with broad read permissions.
