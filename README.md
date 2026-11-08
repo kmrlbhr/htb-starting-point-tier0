@@ -4,7 +4,7 @@
 ![Type](https://img.shields.io/badge/Type-Starting%20Point-blueviolet)
 ![Tier](https://img.shields.io/badge/Tier-0-brightgreen)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Boxes](https://img.shields.io/badge/Boxes-0%2F8-orange)
+![Boxes](https://img.shields.io/badge/Boxes-2%2F8-orange)
 
 > My notes, commands and walkthroughs for the HackTheBox **Starting Point — Tier 0** machines.
 > Flags are hidden behind spoiler sections. Try each box yourself first.
@@ -34,12 +34,12 @@
 
 ## ✅ Progress Tracker
 
-**Boxes rooted: 0 / 8**
+**Boxes rooted: 2 / 8**
 
 | # | Machine | OS | Writeup | Status |
 |---|---------|-----|---------|--------|
-| 1 | Meow | Linux | — | ⬜ Not started |
-| 2 | Fawn | Linux | — | ⬜ Not started |
+| 1 | Meow | Linux | [writeups/meow.md](writeups/meow.md) | ✅ Done |
+| 2 | Fawn | Linux | [writeups/fawn.md](writeups/fawn.md) | ✅ Done |
 | 3 | Dancing | Windows | — | ⬜ Not started |
 | 4 | Redeemer | Linux | — | ⬜ Not started |
 | 5 | Explosion | Windows | — | ⬜ Not started |
@@ -55,7 +55,8 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done
 
 | Machine | OS | Foothold | Writeup |
 |---------|-----|----------|---------|
-| _add as you go_ | | | |
+| Meow | Linux | Telnet root, blank password | [writeups/meow.md](writeups/meow.md) |
+| Fawn | Linux | Anonymous FTP | [writeups/fawn.md](writeups/fawn.md) |
 
 ---
 
